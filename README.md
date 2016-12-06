@@ -1,21 +1,18 @@
 # swift_install_instruction on ubuntu 
 
-sudo apt-get install clang
+step 1: sudo apt-get install clang libpython2.7 
 
-Download the source of swift from swift.org
-
-Use tar to extract
-
-export PATH=/usr/local/src/swift-3.0.1-RELEASE-ubuntu16.04/usr/bin/:"${PATH}"
-
-Add this to /etc/apt/sources.list
+step 2: Add this to /etc/apt/sources.list
 deb http://cz.archive.ubuntu.com/ubuntu xenial main
 
-Sudo apt-get update
+step 3: sudo apt-get update
 
-apt install libpython2.7
+step 4: apt-get install libicu-dev libicu55
 
-apt-get install libicu-dev libicu55
+step 5: Download the source of swift from swift.org
 
-Then run
-swift
+step 6: Use tar to extract
+
+step 7: export PATH=/usr/local/src/swift-3.0.1-RELEASE-ubuntu16.04/usr/bin/:"${PATH}"
+
+step 8: run swift command
